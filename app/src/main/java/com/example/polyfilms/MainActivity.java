@@ -34,32 +34,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*Récupération de l'image dans la zone de contenu*/
-        final ImageView affiche = findViewById(R.id.imageView);
-        /*Récupération de la zone de texte dans la zone de contenu*/
-        final TextView titre = findViewById(R.id.textview_first);
 
-
-        /*l'imageview sera sensible aux swipes*/
-        affiche.setOnTouchListener(new onSwipeClickListener(){
-
-            public void onSwipeTop() {
-                Toast.makeText(MainActivity.this, "haut", Toast.LENGTH_SHORT).show();
-            }
-            public void onSwipeRight() {
-                Snackbar.make(affiche, "précédent", Snackbar.LENGTH_SHORT).show();
-
-            }
-            public void onSwipeLeft() {
-                Snackbar.make(affiche, "suivant", Snackbar.LENGTH_SHORT).show();
-
-            }
-            public void onSwipeBottom() {
-                Toast.makeText(MainActivity.this, "bas", Toast.LENGTH_SHORT).show();
-            }
-
-        });
-        /* fin de la gestion du swipe */
 
 
     }
