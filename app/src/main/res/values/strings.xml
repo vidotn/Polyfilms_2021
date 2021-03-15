@@ -12,6 +12,8 @@
 
     <string name="content_description_affiche">affiche</string>
     <string name="content_description_titre">Le titre</string>
+    <string name="details">Voir fiche</string>
+    <string name="titre1">Alita</string>
 
 
 </resources>
